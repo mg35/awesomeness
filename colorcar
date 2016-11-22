@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class hello
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int r = (int )(Math.random() * 6);
+		ArrayList<String> c = new ArrayList<String>();
+		c.add("red");
+		c.add("orange");
+		c.add("yellow");
+		c.add("green");
+		c.add("blue");
+		c.add("purple");
+		int ra = (int )(Math.random() * 4);
+		ArrayList<String> b = new ArrayList<String>();
+		b.add("car");
+		b.add("shirt");
+		b.add("lollipop");
+		b.add("ribbon");
+		System.out.println("you ordered a "+c.get(r)+" "+b.get(ra));
+	}
+}

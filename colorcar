@@ -6,6 +6,7 @@ class hello
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+		for(int q=0;q<5;q++){
 		int r = (int )(Math.random() * 6);
 		ArrayList<String> c = new ArrayList<String>();
 		c.add("red");
@@ -20,6 +21,7 @@ class hello
 		b.add("shirt");
 		b.add("lollipop");
 		b.add("ribbon");
-		System.out.println("you ordered a "+c.get(r)+" "+b.get(ra));
+		System.out.println("you ordered a "+c.get(r)+" "+b.get(ra)+"\n");
+		}
 	}
 }
